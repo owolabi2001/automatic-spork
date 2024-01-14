@@ -1,0 +1,92 @@
+.firs-div{
+    background-image: url("https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,w_1349,h_667/v1653688465/assets/29/74ec2f-a727-47e1-9695-c78f8dadee5f/original/DotCom_Update_Earner_bg2x.jpg");
+    position: relative;
+    height: 650px;
+    background-repeat: no-repeat;
+    margin: 0;
+
+}
+
+.header{
+    background-color: black;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.uber-logo{
+    color:white;
+    font-family:  Helvetica, Arial, sans-serif ;
+    font-size: 24px;
+}
+
+.left-header{
+    margin-left: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+.left-header .other{
+    /* font-weight: bold; */
+    margin-right: 15px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 6px;
+    transition: background-color 0.7s, border-radius 0.7s;
+}
+
+
+.left-header .other:hover{
+    background-color: rgba(245, 242, 242,0.3);
+    border-radius: 14px;
+
+}
+
+
+.uber-logo{
+    margin-right:15px;
+    text-decoration: none;
+}
+
+.company{
+    margin-right: 15px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 6px;
+    transition: background-color 0.7s, border-radius 0.7s;
+    display:flex;
+    align-items: center;
+
+}
+.company span{
+    font-size: 20px;
+    padding-bottom: 10px;
+    margin-left: 3px;
+}
+
+.right-header{
+    margin-right: 40px;
+}
+.right-header button{
+    font-weight: 500;
+    background-color: black;
+    color: white;
+    border-style: none;
+    padding: 10px;
+}
+.right-header:hover{
+    cursor: pointer;
+}
+.right-header .sign-up{
+    background-color: white;
+    border-radius: 25px;
+    color: black;
+    margin-right: 15px;
+}

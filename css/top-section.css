@@ -1,0 +1,84 @@
+.left-relative-div{
+    background-color: white;
+    height: 470px;
+    position: absolute;
+    width: 500px;
+    top: 125px;
+    left: 100px
+}
+
+.orders{
+    padding-top: 20px;
+    background-color: rgb(255, 253, 253);
+    margin-top: 0px;
+    display: grid;
+    grid-template-columns: 0.7fr 0.7fr 0.7fr;
+    column-gap: 35px;
+    justify-content: space-between;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-bottom: solid;
+    border-color: rgb(248, 246, 246);
+    border-width: 0.1px;
+}
+
+
+
+.orders-orders{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.orders .orders-orders p{
+    vertical-align: top;
+    margin-top: 5px;
+    font-size: 14px;
+    width: 50px;
+}
+
+.get-in-the-drivers{
+    font-weight: 700;
+    font-size: 40px;
+    width: 70%;
+    margin-bottom: 25px;
+    
+}
+.drive-on-the-platform{
+    font-size: 15px;
+    margin-bottom: 25px;
+    color: rgb(112, 110, 110);
+}
+
+.left-relative-div .info{
+    margin-left: 50px;
+}
+
+.info button{
+    cursor: pointer;
+    padding: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
+    border: none;
+    font-size: 15px;
+    border-radius: 6px;
+    background-color: black;
+    display: block;
+}
+
+.learn-more{
+    margin-top: 30px;
+    color: rgb(83, 82, 82);
+    margin-bottom: 40px;
+    font-weight: 200;
+    font-size: 15px;
+    padding-bottom:5.6px;
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: rgb(196, 194, 194);
+    display: inline-block;
+    /* border-style: solid; */
+}

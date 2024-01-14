@@ -1,0 +1,14 @@
+body{
+    font-family:  Roboto, Helvetica, sans-serif ;
+    margin: 0;
+}
+
+.second-div{
+    background-image: url("https://www.uber-assets.com/image/upload/v1613106985/assets/0e/47aa71-35cb-459a-a975-78c61ea300e2/original/HP-U4B-NYC-bkg.png");
+    height: 260px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+    margin-top: 0px;
+}
